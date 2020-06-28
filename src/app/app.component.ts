@@ -9,7 +9,7 @@ import {User} from '../models/User';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'angular-dockerized';
+  title = 'Angular & Jenkins';
   users$: Observable<User[]>;
 
   constructor(private userService: UserService) {
